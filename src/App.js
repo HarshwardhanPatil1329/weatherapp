@@ -23,17 +23,17 @@ function App() {
     }
     
 
-    const dateBuilder = (d) => {
-      let months=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
-      let days=["sun","mon","tue","wed","thur","fri","sat"];
+    // const dateBuilder = (d) => {
+    //   let months=["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+    //   let days=["sun","mon","tue","wed","thur","fri","sat"];
 
-      let day=days[d.getDay()];
-      let date=d.getDate();
-      let month=months[d.getMonth()];
-      let year= d.getFullYear();
+    //   let day=days[d.getDay()];
+    //   let date=d.getDate();
+    //   let month=months[d.getMonth()];
+    //   let year= d.getFullYear();
 
-      return `${day} ${date} ${month} ${year}` 
-    }
+    //   return `${day} ${date} ${month} ${year}` 
+    // }
   return (
     <div className="app">
       <main>
