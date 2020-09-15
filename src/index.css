@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+/* .app{
+  background-image:url(./hello.jpg) ;
+  background-size: cover;
+  background-position:bottom;
+  
+} */
+main{
+  min-height: 100vh;
+  padding: 25px;
+
+}
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+  
+}
+
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: 5px black;
+  outline: none;
+
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+   box-shadow: 3px 2px black; 
+
+  color: #313131;
+  font-size: 20px;
+}
+.search-box .search-bar:focus{
+
+    background-color: rgba(255, 255, 255, 0.75);
+}
